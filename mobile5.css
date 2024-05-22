@@ -1,0 +1,94 @@
+@media screen and (max-width: 800px){
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .frontpage{
+       display: flex;
+       flex-direction: column-reverse;
+       height: 180vh;
+       width: 100%;
+       justify-content: center;
+       align-items: center;
+       
+    }
+    .menu{
+        width: 90%;
+        height: 10vh;
+        
+    }
+    .circle{
+        display: block;
+        width: 100%;
+        margin-left: 60px;
+      
+    }
+    .content{
+        /* display: block; */
+        height: 90vh;
+        width: 100%;
+        padding-top: 30px;
+        margin-right: 40px;
+        /* text-align: left; */
+        
+    }
+    .logo{
+        display: none;
+    }
+   .works2{
+    margin-left: 40px;
+   }
+   .contact-icons{
+    width: 100%;
+    height: 90vh;
+   }
+   .icon-circle1a{
+    width: 30%;
+   }
+   .icon-circle2a{
+    width: 30%;
+   }
+   .icon-circle3a{
+    width: 30%;
+   }
+   .icon-circle1a  i{
+    margin: 15px 20px;
+   }
+   .icon-circle2a  i{
+    margin: 18px 15px;
+   }
+   .icon-circle3a  i{
+    margin: 15px 15px;
+   }
+
+   .icon-circle1a  i:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 20px;
+    color: rgb(165, 135, 59);
+    /* text-decoration: none; */
+   }
+   .icon-circle2a  i:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 20px;
+    color: rgb(165, 135, 59);
+   }
+   .icon-circle3a  i:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 20px;
+    color: rgb(165, 135, 59);
+   }
+   a{
+    text-decoration: none;
+   }
+
+
+    
+}
